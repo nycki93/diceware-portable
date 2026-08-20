@@ -1,0 +1,141 @@
+
+--------SYMBOLS/DIGITS--------  ------------------------------  ------------------------------  ------------------------------
+11 1      31 "      51 <        Roll 18 dice: aaaa bb cccc dd eeee f g
+12 2      32 '      52 =        - Look up the words for a, c, and e.
+13 3      33 (      53 >        - Look up the symbols/digits for b and d.
+14 4      34 )      54 ?        - Based on f, capitalize word a (1,4), c (2,5), or e (3,6).
+15 5      35 *      55 @        - If a digit is required, use g directly.
+16 6      36 +      56 [        - Example: 1234 56 2345 61 3456 1 2 -> AUNT[drunk]just2
+21 7      41 ,      61 ]        - Haystack size: 6^16 * 3 = 8.46e12, approx. 2^43.
+22 8      42 -      62 ^        
+23 9      43 .      63 _        Alternate simple pattern: aaaa bbbb cccc dddd eeee
+24 0      44 /      64 {        - Haystack size: 6^20 = 3.65e15, approx 2^52.
+25        45 :      65 }        - Example: 1234 5612 2345 6123 4561 
+26 !      46 ;      66 ~          -> aunt spot drunk suffer pink
+
+--------------11--------------  --------------12--------------  --------------13--------------  --------------14--------------  
+11 able   31 afraid 51 alone    11 anyway 31 asleep 51 baby     11 based  31 begin  51 bitch    11 boat   31 both   51 bring    
+12 about  32 after  52 along    12 apart  32 assume 52 back     12 bath   32 behind 52 bite     12 bodies 32 bother 52 brings   
+13 above  33 again  53 also     13 area   33 attack 53 badly    13 battle 33 being  53 blah     13 body   33 bottle 53 broke    
+14 accept 34 agent  54 always   14 argue  34 aunt   54 bags     14 beach  34 belong 54 blame    14 bomb   34 bottom 54 broken   
+15 access 35 agree  55 among    15 arms   35 avoid  55 bail     15 bear   35 best   55 blew     15 bond   35 bought 55 bucks    
+16 across 36 agreed 56 amount   16 army   36 awake  56 ball     16 beat   36 better 56 blind    16 bone   36 boys   56 buddy    
+21 acting 41 ahead  61 anger    21 around 41 aware  61 balls    21 beauty 41 beyond 61 block    21 book   41 brain  61 build    
+22 action 42 ahem   62 angry    22 arrest 42 away   62 band     22 became 42 bigger 62 blood    22 books  42 brave  62 built    
+23 admit  43 alarm  63 animal   23 artist 43 awful  63 bank     23 become 43 bike   63 bloody   23 boring 43 break  63 bullet   
+24 advice 44 alive  64 annie    24 aside  44 awhile 64 barely   24 been   44 bill   64 blow     24 born   44 breath 64 bunch    
+25 affair 45 allow  65 answer   25 asked  45 babe   65 bars     25 beer   45 bird   65 blue     25 borrow 45 bride  65 buried   
+26 afford 46 almost 66 anyone   26 asking 46 babies 66 base     26 before 46 birth  66 board    26 boss   46 bridge 66 burn     
+
+--------------15--------------  --------------16--------------  --------------21--------------  --------------22--------------  
+11 burned 31 came   51 carry    11 chance 31 child  51 close    11 coma   31 could  51 create   11 damn   31 dead   51 desk     
+12 bust   32 camera 52 cars     12 change 32 choice 52 closed   12 come   32 count  52 credit   12 damned 32 deal   52 devil    
+13 busy   33 camp   53 carter   13 charge 33 choose 53 closer   13 comes  33 couple 53 crew     13 dance  33 dean   53 dick     
+14 butt   34 cancel 54 case     14 chase  34 chose  54 closet   14 coming 34 course 54 crime    14 danger 34 dear   54 died     
+15 button 35 cancer 55 cast     15 chat   35 church 55 club     15 common 35 court  55 crisis   15 dare   35 death  55 dies     
+16 buying 36 cannot 56 catch    16 cheap  36 city   56 clue     16 cook   36 cousin 56 cross    16 daria  36 decent 56 dinner   
+21 cabin  41 card   61 caught   21 check  41 claim  61 coach    21 cool   41 cover  61 crowd    21 dark   41 decide 61 dirt     
+22 cake   42 cards  62 cause    22 cheese 42 class  62 coat     22 cops   42 crack  62 cruel    22 date   42 deep   62 dirty    
+23 call   43 care   63 caused   23 chef   43 clean  63 code     23 copy   43 crap   63 crying   23 dating 43 defend 63 doctor   
+24 called 44 cared  64 cell     24 chest  44 clear  64 coffee   24 corner 44 crash  64 cute     24 dawn   44 demon  64 does     
+25 calls  45 career 65 center   25 chick  45 client 65 cold     25 cost   45 crazy  65 daddy    25 days   45 demons 65 dogs     
+26 calm   46 cares  66 chair    26 chief  46 clock  66 color    26 couch  46 cream  66 damage   26 deacon 46 deny   66 doin     
+
+--------------23--------------  --------------24--------------  --------------25--------------  --------------26--------------  
+11 doing  31 dreams 51 dumb     11 east   31 enemy  51 except   11 fake   31 favor  51 file     11 fired  31 food   51 fourth   
+12 doll   32 dress  52 dump     12 easy   32 energy 52 excuse   12 fall   32 fear   52 files    12 first  32 fool   52 freak    
+13 dollar 33 drink  53 dumped   13 eating 33 enjoy  53 exist    13 falls  33 feed   53 fill     13 fish   33 foot   53 free     
+14 done   34 drinks 54 during   14 edge   34 enough 54 expect   14 family 34 feel   54 filled   14 five   34 force  54 freeze   
+15 door   35 drive  55 duty     15 effect 35 entire 55 extra    15 famous 35 feels  55 film     15 fixed  35 forced 55 fresh    
+16 doors  36 driver 56 dying    16 eggs   36 escape 56 eyes     16 fancy  36 feet   56 final    16 flat   36 forget 56 friend   
+21 double 41 drop   61 each     21 eight  41 even   61 face     21 farm   41 fell   61 find     21 flight 41 forgot 61 from     
+22 doubt  42 drove  62 early    22 either 42 event  62 fact     22 fast   42 fellow 62 finds    22 floor  42 form   62 front    
+23 down   43 drug   63 ears     23 else   43 ever   63 facts    23 faster 43 felt   63 fine     23 flying 43 forty  63 fuck     
+24 drag   44 drugs  64 earth    24 empty  44 every  64 failed   24 fate   44 fifty  64 finger   24 focus  44 fought 64 fucked   
+25 draw   45 drunk  65 easier   25 ended  45 evil   65 fair     25 father 45 fight  65 finish   25 folks  45 found  65 full     
+26 dream  46 dude   66 easily   26 ends   46 exact  66 faith    26 fault  46 figure 66 fire     26 follow 46 four   66 funny    
+
+--------------31--------------  --------------32--------------  --------------33--------------  --------------34--------------  
+11 future 31 girls  51 gonna    11 grow   31 hand   51 hates    11 heavy  31 hiding 51 hook     11 hurt   31 invite 51 judge    
+12 game   32 give   52 good     12 grown  32 handle 52 have     12 heck   32 high   52 hope     12 hurts  32 island 52 juice    
+13 games  33 given  53 gosh     13 guard  33 hands  53 having   13 held   33 hill   53 hoping   13 idea   33 issue  53 jump     
+14 garage 34 gives  54 gotta    14 guess  34 hang   54 head     14 hell   34 hire   54 horse    14 ideas  34 issues 54 junior   
+15 gate   35 giving 55 gotten   15 guest  35 happen 55 headed   15 hello  35 hired  55 hotel    15 idiot  35 itself 55 jury     
+16 gave   36 glad   56 grab     16 guilt  36 happy  56 heads    16 help   36 hold   56 hour     16 ignore 36 jacket 56 just     
+21 genius 41 glass  61 grade    21 guilty 41 hard   61 health   21 helped 41 hole   61 hours    21 image  41 jail   61 keep     
+22 gets   42 glen   62 grand    22 guns   42 harder 62 hear     22 helps  42 holy   62 huge     22 indeed 42 jeez   62 keeps    
+23 gettin 43 goes   63 great    23 guts   43 hardly 63 heard    23 here   43 home   63 human    23 insane 43 jerk   63 kept     
+24 gift   44 going  64 grew     24 guys   44 harm   64 heart    24 hero   44 honest 64 hung     24 inside 44 jobs   64 keys     
+25 gimme  45 gold   65 ground   25 hair   45 hate   65 hearts   25 hers   45 honey  65 hungry   25 intend 45 join   65 kick     
+26 girl   46 gone   66 group    26 half   46 hated  66 heat     26 hide   46 honor  66 hurry    26 into   46 joke   66 kicked   
+
+--------------35--------------  --------------36--------------  --------------41--------------  --------------42--------------  
+11 kids   31 knock  51 late     11 legal  31 light  51 little   11 looked 31 love   51 magic    11 market 31 meat   51 mine     
+12 kill   32 know   52 lately   12 legs   32 lights 52 live     12 looks  32 loved  52 maid     12 marry  32 meet   52 minute   
+13 killed 33 known  53 later    13 less   33 like   53 lived    13 loose  33 lovely 53 mail     13 master 33 member 53 mirror   
+14 killer 34 knows  54 laugh    14 lesson 34 liked  54 lives    14 lord   34 lover  54 main     14 match  34 memory 54 miss     
+15 kind   35 ladies 55 lawyer   15 lets   35 likely 55 living   15 lose   35 loves  55 major    15 mate   35 mental 55 missed   
+16 kinda  36 lady   56 lead     16 letter 36 likes  56 local    16 loser  36 loving 56 make     16 matter 36 merry  56 mister   
+21 kinds  41 laid   61 leads    21 level  41 line   61 lock     21 losing 41 luck   61 makes    21 maybe  41 mess   61 model    
+22 king   42 lake   62 learn    22 liar   42 lines  62 locked   22 loss   42 lucky  62 making   22 mayor  42 messed 62 moment   
+23 kiss   43 land   63 least    23 lied   43 lips   63 lonely   23 lost   43 lump   63 male     23 meal   43 middle 63 mommy    
+24 kissed 44 lane   64 leave    24 lies   44 lisa   64 long     24 lots   44 lunch  64 mama     24 mean   44 might  64 money    
+25 knew   45 large  65 leaves   25 life   45 list   65 longer   25 loud   45 lying  65 manage   25 means  45 milk   65 monkey   
+26 knife  46 last   66 left     26 lift   46 listen 66 look     26 lousy  46 made   66 many     26 meant  46 mind   66 month    
+
+--------------43--------------  --------------44--------------  --------------45--------------  --------------46--------------  
+11 months 31 movies 51 nasty    11 next   31 notes  51 only     11 over   31 parts  51 pick     11 plane  31 points 51 pride    
+12 mood   32 moving 52 nature   12 nice   32 nothin 52 onto     12 pack   32 party  52 picked   12 planet 32 police 52 prince   
+13 moon   33 much   53 nbsp     13 night  33 notice 53 open     13 paid   33 pass   53 piece    13 plans  33 pool   53 prison   
+14 more   34 murder 54 near     14 nights 34 number 54 opened   14 pain   34 passed 54 pieces   14 plate  34 poor   54 prom     
+15 most   35 music  55 nearly   15 nine   35 nurse  55 order    15 paint  35 past   55 pills    15 play   35 port   55 proof    
+16 mostly 36 must   56 neck     16 nobody 36 nuts   56 orders   16 pair   36 paying 56 pine     16 played 36 post   56 proud    
+21 mother 41 myself 61 need     21 noise  41 offer  61 other    21 panic  41 peace  61 pink     21 player 41 pounds 61 prove    
+22 mouth  42 nail   62 needed   22 none   42 office 62 others   22 pants  42 people 62 pity     22 please 42 power  62 public   
+23 move   43 naked  63 needs    23 nope   43 often  63 ought    23 paper  43 period 63 pizza    23 plenty 43 pray   63 pull     
+24 moved  44 name   64 nerve    24 normal 44 older  64 ours     24 papers 44 person 64 place    24 plus   44 prefer 64 pulled   
+25 moves  45 named  65 never    25 nose   45 once   65 outfit   25 pardon 45 phone  65 places   25 pocket 45 press  65 punch    
+26 movie  46 names  66 news     26 note   46 ones   66 outta    26 part   46 photo  66 plan     26 point  46 pretty 66 pure     
+
+--------------51--------------  --------------52--------------  --------------53--------------  --------------54--------------  
+11 purse  31 rain   51 record   11 rich   31 role   51 safe     11 scared 31 seemed 51 sexual   11 shoe   31 shut   51 sing     
+12 push   32 raise  52 refuse   12 ride   32 roll   52 safety   12 scary  32 seems  52 sexy     12 shoes  32 sick   52 single   
+13 pushed 33 raised 53 regret   13 ridge  33 roof   53 said     13 scene  33 seen   53 shake    13 shoot  33 side   53 sister   
+14 puts   34 rate   54 relax    14 riding 34 room   54 sake     14 school 34 sees   54 shall    14 shop   34 sight  54 sixty    
+15 queen  35 rather 55 remain   15 right  35 rough  55 same     15 score  35 self   55 shame    15 short  35 sign   55 size     
+16 quick  36 reach  56 remind   16 rights 36 round  56 santos   16 screw  36 sell   56 shape    16 shot   36 signal 56 skin     
+21 quiet  41 read   61 rent     21 ring   41 rude   61 save     21 search 41 send   61 share    21 shots  41 signed 61 slayer   
+22 quit   42 ready  62 repeat   22 risk   42 ruin   62 saved    22 seat   42 sense  62 shift    22 should 42 signs  62 sleep    
+23 quite  43 real   63 report   23 river  43 ruined 63 saving   23 second 43 sent   63 ship     23 show   43 silly  63 slept    
+24 race   44 really 64 rescue   24 road   44 rule   64 saying   24 secret 44 serve  64 shirt    24 showed 44 simple 64 slip     
+25 radar  45 reason 65 rest     25 rock   45 rules  65 says     25 seeing 45 settle 65 shit     25 shower 45 simply 65 slow     
+26 radio  46 recall 66 return   26 roger  46 runs   66 scare    26 seem   46 seven  66 shock    26 shows  46 since  66 small    
+
+--------------55--------------  --------------56--------------  --------------61--------------  --------------62--------------  
+11 smart  31 some   51 space    11 sports 31 start  51 stolen   11 study  31 sure   51 talked   11 tells  31 theory 51 though   
+12 smell  32 song   52 spare    12 spot   32 starts 52 stone    12 stuff  32 swear  52 talkin   12 term   32 there  52 threat   
+13 smells 33 soon   53 speak    13 spring 33 state  53 stood    13 stupid 33 sweet  53 talks    13 terms  33 these  53 three    
+14 smile  34 sooner 54 speech   14 square 34 states 54 stop     14 style  34 switch 54 tall     14 test   34 they   54 threw    
+15 smith  35 sorry  55 speed    15 staff  35 stay   55 store    15 such   35 system 55 tape     15 tests  35 thing  55 throat   
+16 smoke  36 sort   56 spell    16 stage  36 stayed 56 storm    16 suck   36 table  56 taste    16 than   36 things 56 throw    
+21 snake  41 soul   61 spend    21 stairs 41 steal  61 story    21 sucks  41 take   61 taught   21 thank  41 think  61 thrown   
+22 snow   42 sound  62 spent    22 stake  42 step   62 street   22 sudden 42 taken  62 teach    22 thanks 42 thinks 62 ticket   
+23 social 43 sounds 63 spirit   23 stamp  43 stick  63 stress   23 suffer 43 takes  63 team     23 that   43 third  63 tied     
+24 soft   44 soup   64 split    24 stand  44 still  64 strike   24 sugar  44 taking 64 tear     24 their  44 thirty 64 tight    
+25 sold   45 source 65 spoke    25 star   45 stock  65 strong   25 suit   45 talent 65 teeth    25 them   45 this   65 till     
+26 solve  46 south  66 spoken   26 stars  46 stole  66 stuck    26 super  46 talk   66 tell     26 then   46 those  66 time     
+
+--------------63--------------  --------------64--------------  --------------65--------------  --------------66--------------  
+11 times  31 tough  51 trial    11 turned 31 until  51 visit    11 want   31 weapon 51 where    11 willow 31 women  51 worth    
+12 timing 32 tour   52 trick    12 turns  32 upon   52 voice    12 wanted 32 wear   52 which    12 wind   32 wonder 52 would    
+13 tiny   33 town   53 tried    13 twelve 33 upset  53 vote     13 wants  33 week   53 while    13 window 33 woods  53 wound    
+14 tired  34 track  54 trip     14 twenty 34 used   54 wait     14 warm   34 weeks  54 whip     14 wine   34 word   54 write    
+15 toast  35 trade  55 truck    15 twice  35 using  55 waited   15 warn   35 weight 55 whoa     15 wings  35 words  55 wrong    
+16 today  36 train  56 true     16 type   36 usual  56 wake     16 warned 36 weird  56 whole    16 wise   36 work   56 wrote    
+21 told   41 trap   61 truly    21 ugly   41 valley 61 walk     21 wash   41 well   61 whom     21 wish   41 worked 61 yeah     
+22 tongue 42 trash  62 trust    22 uncle  42 very   62 walked   22 waste  42 went   62 whoo     22 witch  42 works  62 year     
+23 took   43 travel 63 truth    23 under  43 victim 63 walks    23 watch  43 were   63 whose    23 with   43 world  63 years    
+24 tory   44 treat  64 trying   24 unit   44 video  64 wall     24 water  44 what   64 wife     24 within 44 worry  64 young    
+25 total  45 tree   65 turkey   25 united 45 view   65 walls    25 ways   45 wheel  65 wild     25 woke   45 worse  65 your     
+26 touch  46 trey   66 turn     26 unless 46 vision 66 wanna    26 weak   46 when   66 will     26 woman  46 worst  66 yours    
+
