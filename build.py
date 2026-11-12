@@ -19,8 +19,11 @@ POCKET DICEWARE by Nycki, 2026
 26 !      46 ;      66 ~          -> aunt spot drunk suffer pink
 ''')
 
-with open("short-words.txt") as file:
-    words = [line.strip() for line in file]
+# with open("short-words.txt") as file:
+#     words = [line.strip() for line in file]
+
+with open("eff_short_wordlist_1.txt") as file:
+    words = [line[4:].strip() for line in file]
 
 blocks = []
 for a in range(6):

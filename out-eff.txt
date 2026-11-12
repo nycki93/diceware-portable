@@ -1,0 +1,143 @@
+
+POCKET DICEWARE (EFF Edition) by Nycki, 2026
+
+--------SYMBOLS/DIGITS--------  ------------------------------  ------------------------------  ------------------------------
+11 1      31 "      51 <        Roll 18 dice: aaaa bb cccc dd eeee f g
+12 2      32 '      52 =        - Look up the words for a, c, and e.
+13 3      33 (      53 >        - Look up the symbols/digits for b and d.
+14 4      34 )      54 ?        - Based on f, capitalize word a (1,4), c (2,5), or e (3,6).
+15 5      35 *      55 @        - If a digit is required, use g directly.
+16 6      36 +      56 [        - Example: 1234 56 2345 61 3456 1 2 -> ATLAS[diner]icy2
+21 7      41 ,      61 ]        - Haystack size: 6^16 * 3 = 8.46e12, approx. 2^43.
+22 8      42 -      62 ^        
+23 9      43 .      63 _        Alternate simple pattern: aaaa bbbb cccc dddd eeee
+24 0      44 /      64 {        - Haystack size: 6^20 = 3.65e15, approx 2^52.
+25        45 :      65 }        - Example: 1234 5612 2345 6123 4561 
+26 !      46 ;      66 ~          -> atlas spoke diner stout puppy
+
+--------------11--------------  --------------12--------------  --------------13--------------  --------------14--------------  
+11 acid   31 aide   51 aloha    11 apron  31 art    51 axis     11 basil  31 bless  51 body     11 botch  31 broil  51 bunny    
+12 acorn  32 aids   52 alone    12 aqua   32 ashen  52 bacon    12 bask   32 blimp  52 boil     12 both   32 broke  52 bunt     
+13 acre   33 aim    53 amend    13 area   33 ashes  53 badge    13 batch  33 blink  53 bok      13 boxer  33 brook  53 bush     
+14 acts   34 ajar   54 amino    14 arena  34 atlas  54 bagel    14 bath   34 bloat  54 bolt     14 breed  34 broom  54 bust     
+15 afar   35 alarm  55 ample    15 argue  35 atom   55 baggy    15 baton  35 blob   55 boned    15 bribe  35 brush  55 busy     
+16 affix  36 alias  56 amuse    16 arise  36 attic  56 baked    16 bats   36 blog   56 boney    16 brick  36 buck   56 buzz     
+21 aged   41 alibi  61 angel    21 armed  41 audio  61 baker    21 blade  41 blot   61 bonus    21 bride  41 bud    61 cable    
+22 agent  42 alien  62 anger    22 armor  42 avert  62 balmy    22 blank  42 blunt  62 bony     22 brim   42 buggy  62 cache    
+23 agile  43 alike  63 angle    23 army   43 avoid  63 banjo    23 blast  43 blurt  63 book     23 bring  43 bulge  63 cadet    
+24 aging  44 alive  64 ankle    24 aroma  44 awake  64 barge    24 blaze  44 blush  64 booth    24 brink  44 bulk   64 cage     
+25 agony  45 aloe   65 apple    25 array  45 award  65 barn     25 bleak  45 boast  65 boots    25 brisk  45 bully  65 cake     
+26 ahead  46 aloft  66 april    26 arson  46 awoke  66 bash     26 blend  46 boat   66 boss     26 broad  46 bunch  66 calm     
+
+--------------15--------------  --------------16--------------  --------------21--------------  --------------22--------------  
+11 cameo  31 cash   51 chess    11 chunk  31 clash  51 clink    11 coil   31 coral  51 crate    11 cross  31 curse  51 dandy    
+12 canal  32 cause  52 chest    12 churn  32 clasp  52 clip     12 coke   32 cork   52 crave    12 crowd  32 curve  52 darn     
+13 candy  33 cedar  53 chew     13 chute  33 class  53 cloak    13 cola   33 cost   53 crawl    13 crown  33 curvy  53 dart     
+14 cane   34 chain  54 chief    14 cider  34 claw   54 clock    14 cold   34 cot    54 crazy    14 crumb  34 cushy  54 dash     
+15 canon  35 chair  55 chili    15 cinch  35 clay   55 clone    15 colt   35 couch  55 creme    15 crush  35 cut    55 data     
+16 cape   36 chant  56 chill    16 city   36 clean  56 cloth    16 coma   36 cough  56 crepe    16 crust  36 cycle  56 date     
+21 card   41 chaos  61 chip     21 civic  41 clear  61 cloud    21 come   41 cover  61 crept    21 cub    41 dab    61 dawn     
+22 cargo  42 charm  62 chomp    22 civil  42 cleat  62 clump    22 comic  42 cozy   62 crib     22 cult   42 dad    62 deaf     
+23 carol  43 chase  63 chop     23 clad   43 cleft  63 coach    23 comma  43 craft  63 cried    23 cupid  43 daily  63 deal     
+24 carry  44 cheek  64 chow     24 claim  44 clerk  64 coast    24 cone   44 cramp  64 crisp    24 cure   44 dairy  64 dean     
+25 carve  45 cheer  65 chuck    25 clamp  45 click  65 coat     25 cope   45 crane  65 crook    25 curl   45 daisy  65 debit    
+26 case   46 chef   66 chump    26 clap   46 cling  66 cod      26 copy   46 crank  66 crop     26 curry  46 dance  66 debt     
+
+--------------23--------------  --------------24--------------  --------------25--------------  --------------26--------------  
+11 debug  31 depth  51 disco    11 donut  31 dried  51 dude     11 easel  31 elder  51 entry    11 evoke  31 feast  51 film     
+12 decaf  32 derby  52 dish     12 dose   32 drift  52 dug      12 east   32 elf    52 envoy    12 exact  32 feed   52 filth    
+13 decal  33 desk   53 disk     13 dot    33 drill  53 duke     13 eaten  33 elk    53 equal    13 exit   33 femur  53 final    
+14 decay  34 dial   54 ditch    14 dove   34 drive  54 duo      14 eats   34 elm    54 erase    14 fable  34 fence  54 finch    
+15 deck   35 diary  55 ditzy    15 down   35 drone  55 dusk     15 ebay   35 elope  55 error    15 faced  35 fend   55 fit      
+16 decor  36 dice   56 dizzy    16 dowry  36 droop  56 dust     16 ebony  36 elude  56 erupt    16 fact   36 ferry  56 five     
+21 decoy  41 dig    61 dock     21 doze   41 drove  61 duty     21 ebook  41 elves  61 essay    21 fade   41 fetal  61 flag     
+22 deed   42 dill   62 dodge    22 drab   42 drown  62 dwarf    22 echo   42 email  62 etch     22 fall   42 fetch  62 flaky    
+23 delay  43 dime   63 doing    23 drama  43 drum   63 dwell    23 edge   43 emit   63 evade    23 false  43 fever  63 flame    
+24 denim  44 dimly  64 doll     24 drank  44 dry    64 eagle    24 eel    44 empty  64 even     24 fancy  44 fiber  64 flap     
+25 dense  45 diner  65 dome     25 draw   45 duck   65 early    25 eject  45 emu    65 evict    25 fang   45 fifth  65 flask    
+26 dent   46 dingy  66 donor    26 dress  46 duct   66 earth    26 elbow  46 enter  66 evil     26 fax    46 fifty  66 fled     
+
+--------------31--------------  --------------32--------------  --------------33--------------  --------------34--------------  
+11 flick  31 fog    51 fresh    11 gains  31 gig    51 going    11 graph  31 grip   51 gush     11 hate   31 hub    51 hush     
+12 fling  32 foil   52 fried    12 gala   32 gills  52 golf     12 grasp  32 grit   52 gut      12 haven  32 hug    52 hut      
+13 flint  33 folic  53 frill    13 game   33 given  53 gong     13 grass  33 groom  53 guy      13 hazel  33 hula   53 ice      
+14 flip   34 folk   54 frisk    14 gap    34 giver  54 good     14 grave  34 grope  54 habit    14 hazy   34 hull   54 icing    
+15 flirt  35 food   55 from     15 gas    35 glad   55 gooey    15 gravy  35 growl  55 half     15 heap   35 human  55 icon     
+16 float  36 fool   56 front    16 gave   36 glass  56 goofy    16 gray   36 grub   56 halo     16 heat   36 humid  56 icy      
+21 flock  41 found  61 frost    21 gear   41 glide  61 gore     21 green  41 grunt  61 halt     21 heave  41 hump   61 igloo    
+22 flop   42 fox    62 froth    22 gecko  42 gloss  62 gown     22 greet  42 guide  62 happy    22 hedge  42 hung   62 image    
+23 floss  43 foyer  63 frown    23 geek   43 glove  63 grab     23 grew   43 gulf   63 harm     23 hefty  43 hunk   63 ion      
+24 flyer  44 frail  64 froze    24 gem    44 glow   64 grain    24 grid   44 gulp   64 hash     24 help   44 hunt   64 iron     
+25 foam   45 frame  65 fruit    25 genre  45 glue   65 grant    25 grief  45 gummy  65 hasty    25 herbs  45 hurry  65 islam    
+26 foe    46 fray   66 gag      26 gift   46 goal   66 grape    26 grill  46 guru   66 hatch    26 hers   46 hurt   66 issue    
+
+--------------35--------------  --------------36--------------  --------------41--------------  --------------42--------------  
+11 item   31 jog    51 juror    11 knelt  31 lasso  51 lever    11 list   31 maker  51 mate     11 motto  31 mull   51 nanny    
+12 ivory  32 jolly  52 jury     12 koala  32 last   52 lid      12 lived  32 malt   52 math     12 mount  32 mumbo  52 nap      
+13 ivy    33 jolt   53 keep     13 kung   33 latch  53 life     13 liver  33 mama   53 moan     13 mouse  33 mummy  53 navy     
+14 jab    34 jot    54 keg      14 ladle  34 late   54 lift     14 lunar  34 mango  54 mocha    14 mousy  34 mural  54 near     
+15 jam    35 joy    55 kept     15 lady   35 lazy   55 lilac    15 lunch  35 manor  55 moist    15 mouth  35 muse   55 neat     
+16 jaws   36 judge  56 kick     16 lair   36 left   56 lily     16 lung   36 many   56 mold     16 move   36 music  56 neon     
+21 jazz   41 juice  61 kilt     21 lake   41 legal  61 limb     21 lurch  41 map    61 mom      21 movie  41 musky  61 nerd     
+22 jeep   42 juicy  62 king     22 lance  42 lemon  62 limes    22 lure   42 march  62 moody    22 mower  42 mute   62 nest     
+23 jelly  43 july   63 kite     23 land   43 lend   63 line     23 lurk   43 mardi  63 mop      23 mud    43 nacho  63 net      
+24 jet    44 jumbo  64 kitty    24 lapel  44 lens   64 lint     24 lying  44 marry  64 morse    24 mug    44 nag    64 next     
+25 jiffy  45 jump   65 kiwi     25 large  45 lent   65 lion     25 lyric  45 mash   65 most     25 mulch  45 nail   65 niece    
+26 job    46 junky  66 knee     26 lash   46 level  66 lip      26 mace   46 match  66 motor    26 mule   46 name   66 ninth    
+
+--------------43--------------  --------------44--------------  --------------45--------------  --------------46--------------  
+11 nutty  31 opal   51 pace     11 patch  31 petri  51 poach    11 pond   31 prior  51 pulp     11 quake  31 radio  51 rash     
+12 oak    32 open   52 pagan    12 path   32 petty  52 pod      12 pony   32 prism  52 pulse    12 query  32 raft   52 raven    
+13 oasis  33 opera  53 pager    13 patio  33 photo  53 poem     13 poppy  33 prize  53 puma     13 quiet  33 rage   53 reach    
+14 oat    34 opt    54 palm     14 payer  34 plank  54 poet     14 pork   34 probe  54 punch    14 quill  34 raid   54 react    
+15 ocean  35 otter  55 panda    15 pecan  35 plant  55 pogo     15 poser  35 prong  55 punk     15 quilt  35 rail   55 ream     
+16 oil    36 ouch   56 panic    16 penny  36 plaza  56 point    16 pouch  36 proof  56 pupil    16 quit   36 rake   56 rebel    
+21 old    41 ounce  61 pants    21 pep    41 plead  61 poise    21 pound  41 props  61 puppy    21 quota  41 rally  61 recap    
+22 olive  42 outer  62 panty    22 perch  42 plot   62 poker    22 pout   42 prude  62 purr     22 quote  42 ramp   62 relax    
+23 omen   43 oval   63 paper    23 perky  43 plow   63 polar    23 power  43 prune  63 purse    23 rabid  43 ranch  63 relay    
+24 onion  44 oven   64 park     24 perm   44 pluck  64 polio    24 prank  44 pry    64 push     24 race   44 range  64 relic    
+25 only   45 owl    65 party    25 pest   45 plug   65 polka    25 press  45 pug    65 putt     25 rack   45 rank   65 remix    
+26 ooze   46 ozone  66 pasta    26 petal  46 plus   66 polo     26 print  46 pull   66 quack    26 radar  46 rant   66 repay    
+
+--------------51--------------  --------------52--------------  --------------53--------------  --------------54--------------  
+11 repel  31 ripen  51 romp     11 sadly  31 sauna  51 scold    11 sect   31 shaky  51 ship     11 shush  31 skew   51 slang    
+12 reply  32 rise   52 rope     12 sage   32 saved  52 scoop    12 sedan  32 sham   52 shirt    12 shut   32 skid   52 slash    
+13 rerun  33 risk   53 rover    13 said   33 savor  53 scoot    13 self   33 shape  53 shock    13 shy    33 skier  53 slate    
+14 reset  34 ritzy  54 royal    14 saint  34 sax    54 scope    14 send   34 share  54 shop     14 sift   34 skies  54 slaw     
+15 rhyme  35 rival  55 ruby     15 salad  35 say    55 score    15 sepia  35 sharp  55 shore    15 silk   35 skip   55 sled     
+16 rice   36 river  56 rug      16 salon  36 scale  56 scorn    16 serve  36 shed   56 shout    16 silly  36 skirt  56 sleek    
+21 rich   41 roast  61 ruin     21 salsa  41 scam   61 scout    21 set    41 sheep  61 shove    21 silo   41 skit   61 sleep    
+22 ride   42 robe   62 rule     22 salt   42 scan   62 scowl    22 seven  42 sheet  62 shown    22 sip    42 sky    62 sleet    
+23 rigid  43 robin  63 runny    23 same   43 scare  63 scrap    23 shack  43 shelf  63 showy    23 siren  43 slab   63 slept    
+24 rigor  44 rock   64 rush     24 sandy  44 scarf  64 scrub    24 shade  44 shell  64 shred    24 sixth  44 slack  64 slice    
+25 rinse  45 rogue  65 rust     25 santa  45 scary  65 scuba    25 shady  45 shine  65 shrug    25 size   45 slain  65 slick    
+26 riot   46 roman  66 rut      26 satin  46 scoff  66 scuff    26 shaft  46 shiny  66 shun     26 skate  46 slam   66 slimy    
+
+--------------55--------------  --------------56--------------  --------------61--------------  --------------62--------------  
+11 sling  31 smile  51 snout    11 spoil  31 squat  51 stash    11 stole  31 strut  51 swab     11 swirl  31 taper  51 thigh    
+12 slip   32 smirk  52 snowy    12 spoke  32 squid  52 state    12 stomp  32 stuck  52 swan     12 swoop  32 taps   52 thing    
+13 slit   33 smog   53 snub     13 spoof  33 stack  53 stays    13 stony  33 stud   53 swarm    13 swore  33 tarot  53 think    
+14 slob   34 snack  54 snuff    14 spool  34 staff  54 steam    14 stood  34 stuff  54 sway     14 syrup  34 tart   54 thong    
+15 slot   35 snap   55 speak    15 spoon  35 stage  55 steep    15 stool  35 stump  55 swear    15 tacky  35 task   55 thorn    
+16 slug   36 snare  56 speed    16 sport  36 stain  56 stem     16 stoop  36 stung  56 sweat    16 taco   36 taste  56 those    
+21 slum   41 snarl  61 spend    21 spot   41 stall  61 step     21 stop   41 stunt  61 sweep    21 tag    41 tasty  61 throb    
+22 slurp  42 sneak  62 spent    22 spout  42 stamp  62 stew     22 storm  42 suds   62 swell    22 take   42 taunt  62 thud     
+23 slush  43 sneer  63 spew     23 spray  43 stand  63 stick    23 stout  43 sugar  63 swept    23 tall   43 thank  63 thumb    
+24 small  44 sniff  64 spied    24 spree  44 stank  64 sting    24 stove  44 sulk   64 swim     24 talon  44 thaw   64 thump    
+25 smash  45 snore  65 spill    25 spur   45 stark  65 stir     25 straw  45 surf   65 swing    25 tamer  45 theft  65 thus     
+26 smell  46 snort  66 spiny    26 squad  46 start  66 stock    26 stray  46 sushi  66 swipe    26 tank   46 theme  66 tiara    
+
+--------------63--------------  --------------64--------------  --------------65--------------  --------------66--------------  
+11 tidal  31 trap   51 truce    11 tux    31 union  51 vegan    11 vixen  31 wake   51 widen    11 wiry   31 wound  51 yield    
+12 tidy   32 trash  52 truck    12 tweak  32 unit   52 venue    12 vocal  32 walk   52 widow    12 wise   32 woven  52 yo-yo    
+13 tiger  33 tray   53 trump    13 tweet  33 untie  53 verse    13 voice  33 wand   53 width    13 wish   33 wrath  53 yodel    
+14 tile   34 treat  54 trunk    14 twice  34 upon   54 vest     14 void   34 wasp   54 wife     14 wispy  34 wreck  54 yoga     
+15 tilt   35 tree   55 try      15 twine  35 upper  55 veto     15 volt   35 watch  55 wifi     15 wok    35 wrist  55 yoyo     
+16 tint   36 trek   56 tug      16 twins  36 urban  56 vice     16 voter  36 water  56 wilt     16 wolf   36 xerox  56 yummy    
+21 tiny   41 trend  61 tulip    21 twirl  41 used   61 video    21 vowel  41 wavy   61 wimp     21 womb   41 yahoo  61 zebra    
+22 trace  42 trial  62 tummy    22 twist  42 user   62 view     22 wad    42 wheat  62 wind     22 wool   42 yam    62 zero     
+23 track  43 tribe  63 turf     23 uncle  43 usher  63 viral    23 wafer  43 whiff  63 wing     23 woozy  43 yard   63 zesty    
+24 trade  44 trick  64 tusk     24 uncut  44 utter  64 virus    24 wager  44 whole  64 wink     24 word   44 year   64 zippy    
+25 train  45 trio   65 tutor    25 undo   45 value  65 visa     25 wages  45 whoop  65 wipe     25 work   45 yeast  65 zone     
+26 trait  46 trout  66 tutu     26 unify  46 vapor  66 visor    26 wagon  46 wick   66 wired    26 worry  46 yelp   66 zoom     
+
